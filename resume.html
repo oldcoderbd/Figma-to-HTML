@@ -9,18 +9,85 @@
 <body class="bg-[#221A37] text-white">
 
     <div class="w-full h-screen relative">
-        <header class="p-8">
+        <header class="p-8 lg:hidden">
             <div class="flex justify-between">
                 <a href=""><h1 class="text-3xl">NERIA KATZ</h1></a>
                 <button class="bg-[#402166] hover:bg-[#1E0042] transition px-5 py-1 rounded-full shadow">Contact</button>
             </div>
-            <div class="flex justify-between py-10">
-                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow">About</a>
-                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow">Resume</a>
-                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow">Gallary</a>
-                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow">Certificate</a>
+            <div class="flex justify-between sm:place-content-evenly md:justify-end py-10 ">
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">About</a>
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Resume</a>
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Gallary</a>
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Certificate</a>
             </div>
         </header>
+
+        <!--Header for 1024px and upper display-->
+        <header class="px-8 hidden lg:block">
+            <div class="flex justify-between items-center">
+                <div>
+                    <a href=""><h1 class="text-3xl">NERIA KATZ</h1></a>
+                </div>
+                <div class="flex justify-between sm:place-content-evenly md:justify-end py-10 ">
+                    <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">About</a>
+                    <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Resume</a>
+                    <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Gallary</a>
+                    <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Certificate</a>
+                    <button class="bg-[#402166] hover:bg-[#1E0042] transition px-5 py-1 rounded-full shadow">Contact</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="p-8 text-sm lg:text-xl">
+            <div class="flex">
+                <div class="border-r-2 border-[#A60AC7] px-2 text-right w-1/2">
+                    <h3 class="text-lg font-semibold text-[#5D3974]">JUL 2022 - PRESENT</h3>
+                    <p class="text-[#575757]">Sounds Good Agency</p>
+                </div>
+                <div class="p-5 w-1/2">
+                    <h3>Lead Developer</h3>
+                        <li>Shopify Expert with specialization in UI/UX</li>
+                        <li>Proficient in creating wireframes and prototypes using Figma</li>
+                        <li>Expertise in theme customization, feature creation, and design implementation</li>
+                        <li>Lead DEV responsibilities including:</li>
+                        <div class="pl-6">
+                            <li>Git management</li>
+                            <li>Code review</li>
+                            <li>Mentoring team members</li>
+                            <li>Bug tracking</li>
+                            <li>Project management</li>
+                        </div>
+                </div>
+            </div>
+            <div class="flex p-8">
+                <div class="border-r-2 border-[#A60AC7] px-2 text-right w-1/2">
+                    <h3 class="text-lg font-semibold text-[#5D3974]">JUN 2018 - PRESENT</h3>
+                    <p class="text-[#575757]">Toptal</p>
+                </div>
+                <div class="p-5 w-1/2">
+                    <h3>UI/UX Expert</h3>
+                        <li>Developed and maintained Shopify projects for Toptal, a network of top 3% software engineering, design, and finance talent</li>
+                        <li>Specialized in design to UI implementation using Figma</li>
+                        <li>Managed bug tickets using Asana.com</li>
+                        <li>Integrated 3rd party apps and Shopify API end-points</li>
+                        <li>Developed new features and components, complex customizer configurations, meta fields, and templates using ThemeKit</li>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="border-r-2 border-[#A60AC7] px-2 text-right w-1/2">
+                    <h3 class="text-lg font-semibold text-[#5D3974]">NOV 2020 - FEB 2022</h3>
+                    <p class="text-[#575757]">StudioNow</p>
+                </div>
+                <div class="p-5 w-1/2">
+                    <h3>Senior Front-End Developer & UI/UX Designer</h3>
+                        <li>Implemented "creative search" feature for admin system, including design and development</li>
+                        <li>Migrated system from AngularJS to Angular 10</li>
+                        <li>Redesigned UI/UX in Figma and implemented design changes throughout system using Angular</li>
+                        <li>Transformed old system with new design language, as demonstrated in "creative search" feature</li>
+                </div>
+            </div>
+        </div>
+
         <div class="absolute bottom-0 z-[-1]">
             <img src="./Background-image.png" alt="">
         </div>
