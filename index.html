@@ -7,34 +7,61 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#221A37] text-white">
-    
-    <div class="bg-[url('./Background-image.png')] w-full h-screen bg-no-repeat">
-        <header class="flex justify-between p-14">
-            <a href=""><h1 class="text-3xl">NERIA KATZ</h1></a>
-            <div>
-                <a href="" class="px-5 py-2 mx-2 hover:bg-[#402166] rounded-full hover:shadow-xl">About</a>
-                <a href="" class="px-5 py-2 mx-2 hover:bg-[#402166] rounded-full hover:shadow-xl">Resume</a>
-                <a href="" class="px-5 py-2 mx-2 hover:bg-[#402166] rounded-full hover:shadow-xl">Gallery</a>
-                <a href="" class="px-5 py-2 mx-2 hover:bg-[#402166] rounded-full hover:shadow-xl">Certificates</a>
-                <a href="" class="px-5 py-2 mx-2 hover:bg-[#402166] rounded-full hover:shadow-xl">Contact</a>
+
+    <div class="w-full h-screen relative">
+        <header class="p-8 lg:hidden">
+            <div class="flex justify-between">
+                <a href=""><h1 class="text-3xl">NERIA KATZ</h1></a>
+                <button class="bg-[#402166] hover:bg-[#1E0042] transition px-5 py-1 rounded-full shadow">Contact</button>
+            </div>
+            <div class="flex justify-between sm:place-content-evenly md:justify-end py-10 ">
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">About</a>
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Resume</a>
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Gallary</a>
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Certificate</a>
             </div>
         </header>
-        <div class="flex">
-            <div class="w-1/2"></div>
-            <div class="w-1/2">
-                <h5 class="text-[#5D3974] text-xl font-extrabold">Chief</h5>
-                <h1 class="text-6xl font-extrabold tracking-wide">AI-UI<br>Architect</h1>
-                <p class="font-semibold text-[#575757]">Design & Development</p>
 
-                <p class="py-8 pr-96">An AI wizard, possesses a keen intellect and a natural affinity for technology. Constantly seeking out new ways to merge artificial intelligence with user interface design, they are a true innovator in their field.</p>
+        <!--Header for 1024px and upper display-->
+        <header class="px-8 md:hidden sm:hidden">
+            <div class="flex justify-between items-center">
+                <div>
+                    <a href=""><h1 class="text-3xl">NERIA KATZ</h1></a>
+                </div>
+                <div class="flex justify-between sm:place-content-evenly md:justify-end py-10 ">
+                    <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">About</a>
+                    <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Resume</a>
+                    <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Gallary</a>
+                    <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow md:mx-5">Certificate</a>
+                    <button class="bg-[#402166] hover:bg-[#1E0042] transition px-5 py-1 rounded-full shadow">Contact</button>
+                </div>
+                
+            </div>
+            
+        </header>
+        
+        <div class="px-8 sm:px-20">
+            <div>
+                <h5 class="text-xl font-bold text-[#5D3974]">Chief</h5>
+                <h1 class="text-6xl font-bold">AI-UI
+                <br>Architect</h1>
+                <p class="text-[#575757]">Design & Development</p>
+            </div>
+            <div class="pt-8">
+                <p>An AI wizard, possesses a keen intellect and a natural affinity for technology. Constantly seeking out new ways to merge artificial intelligence with user interface design, they are a true innovator in their field. <br><br>
 
-                <p class="pb-8 pr-96">Leading a team of skilled designers and developers, they use their powers for good, striving to make the world a better place through exceptional user experiences. Whether it's crafting beautiful apps or designing seamless websites, no challenge is too great for them to tackle.</p>
-
-                <p class=" pr-96">With a deep understanding of the mystical arts of tech and design, always on the cutting-edge, seeking out new ways to improve and evolve. Join them on their journey to make a lasting impact on the world, one user at a time.</p>
-
+                    Leading a team of skilled designers and developers, they use their powers for good, striving to make the world a better place through exceptional user experiences. Whether it's crafting beautiful apps or designing seamless websites, no challenge is too great for them to tackle. <br><br>
+                    
+                    With a deep understanding of the mystical arts of tech and design, always on the cutting-edge, seeking out new ways to improve and evolve. Join them on their journey to make a lasting impact on the world, one user at a time.</p>
             </div>
         </div>
-    </div>
 
+
+
+
+        <div class="absolute bottom-0 z-[-1]">
+            <img src="./Background-image.png" alt="">
+        </div>
+    </div>
 </body>
 </html>
