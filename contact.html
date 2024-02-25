@@ -7,24 +7,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#221A37] text-white">
-    <div class="bg-[url('./Background-image.png')] w-full h-screen bg-no-repeat">
-        <header class="flex justify-between p-14">
-            <a href=""><h1 class="text-3xl">NERIA KATZ</h1></a>
-            <div>
-                <a href="" class="px-5 py-2 mx-2 hover:bg-[#402166] rounded-full hover:shadow-xl">About</a>
-                <a href="" class="px-5 py-2 mx-2 hover:bg-[#402166] rounded-full hover:shadow-xl">Resume</a>
-                <a href="" class="px-5 py-2 mx-2 hover:bg-[#402166] rounded-full hover:shadow-xl">Gallery</a>
-                <a href="" class="px-5 py-2 mx-2 hover:bg-[#402166] rounded-full hover:shadow-xl">Certificates</a>
-                <a href="" class="px-5 py-2 mx-2 hover:bg-[#402166] rounded-full hover:shadow-xl">Contact</a>
+
+    <div class="w-full h-screen relative">
+        <header class="p-8">
+            <div class="flex justify-between">
+                <a href=""><h1 class="text-3xl">NERIA KATZ</h1></a>
+                <button class="bg-[#402166] hover:bg-[#1E0042] transition px-5 py-1 rounded-full shadow">Contact</button>
+            </div>
+            <div class="flex justify-between py-10">
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow">About</a>
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow">Resume</a>
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow">Gallary</a>
+                <a href="" class="hover:bg-[#402166] px-5 py-1 rounded-full shadow">Certificate</a>
             </div>
         </header>
-        <div class="flex">
-            <div class="w-1/2"></div>
-            <div class="w-1/2">
-                <div></div>
-            </div>
+        <div class="absolute bottom-0 z-[-1]">
+            <img src="./Background-image.png" alt="">
         </div>
     </div>
-    
 </body>
 </html>
